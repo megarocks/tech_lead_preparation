@@ -126,3 +126,37 @@ The Increment is the sum of all the Product Backlog items completed during a Spr
 * Velocity
 * Sprint Burndown Chart
 * Feature Burnup Chart
+
+
+#### Шаблоны - Patterns
+
+Порождающие
+Удобное и безопасное создание обьектов
+* Фабричный метод - Factory method
+* Абстрактная фабрика - Abstract factory
+* Строитель - Builder
+* Прототип - Prototype
+* Одиночка - Singleton
+
+Структурные
+создают и поддерживают иерархические связи
+* Адаптер - Adapter
+* Мост - Bridge
+* Компоновщик - Composite
+* Декоратор - Decorator
+* Фасад - Facade
+* Легковес - Flyweight
+* Заместитель - Proxy
+
+Поведенческие
+эффективное и безопасное взаимодействие
+* Цепочка обязанностей - Chain of responsibility
+* Команда - Command
+* Итератор - Iterator
+* Посредник - Mediator
+* Снимок - Memento
+* Наблюдатель - Observer
+* Состояние - State
+* Стратегия - Strategy
+* Шаблонный метод - Template method
+* Посетитель - Visitor

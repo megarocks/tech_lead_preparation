@@ -130,15 +130,16 @@ The Increment is the sum of all the Product Backlog items completed during a Spr
 
 #### Шаблоны - Patterns
 
-Порождающие
-Удобное и безопасное создание обьектов
+##### Порождающие
+Удобное и безопасное создание обьектов.
 * Фабричный метод - Factory method
 * Абстрактная фабрика - Abstract factory
 * Строитель - Builder
 * Прототип - Prototype
-* Одиночка - Singleton
+* Одиночка - Singleton  
+Прототип-одиночка строит фабричные методы на абстрактной фабрике
 
-Структурные
+##### Структурные
 создают и поддерживают иерархические связи
 * Адаптер - Adapter
 * Мост - Bridge
@@ -146,9 +147,10 @@ The Increment is the sum of all the Product Backlog items completed during a Spr
 * Декоратор - Decorator
 * Фасад - Facade
 * Легковес - Flyweight
-* Заместитель - Proxy
+* Заместитель - Proxy  
+Заместитель компоновщика декорирует фасад моста легковесными адаптерами
 
-Поведенческие
+##### Поведенческие
 эффективное и безопасное взаимодействие
 * Цепочка обязанностей - Chain of responsibility
 * Команда - Command
@@ -160,3 +162,4 @@ The Increment is the sum of all the Product Backlog items completed during a Spr
 * Стратегия - Strategy
 * Шаблонный метод - Template method
 * Посетитель - Visitor
+Наблюдатель шаблонным методом стратегически снимает состояние итерации команды по цепочке обязанностей от посредника к посетителю
